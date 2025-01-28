@@ -1,9 +1,7 @@
-# 🔍 Cybersecurity Wordlists Repository  
-*A curated collection of wordlists optimized for penetration testing, bug bounties, and cybersecurity research.*  
+# Cybersecurity Wordlists Repository  
+**A curated collection of wordlists optimized for penetration testing, bug bounties, and cybersecurity research.**  
 
 ---
-
-## 🗂️ **Categories**  
 
 ### 🌐 **Subdomains**  
 | Wordlist | Description | Source |  
