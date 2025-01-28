@@ -96,4 +96,4 @@
 
 > [!WARNING]  
 Always obtain proper authorization before testing.  
-*Maintained with ❤️ by the infosec community.*  
+**Maintained with ❤️ by github.com/zebbern.**  
