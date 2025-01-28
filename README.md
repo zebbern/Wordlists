@@ -5,7 +5,7 @@
 
 # Cybersecurity Wordlists Repository  
 **A curated collection of wordlists optimized for penetration testing, bug bounties, and cybersecurity research.**  
-</div>
+
 ---
 
 ### 🌐 **Subdomains**  
@@ -102,3 +102,6 @@
 > [!WARNING]  
 Always obtain proper authorization before testing.  
 **Maintained with ❤️ by github.com/zebbern.**  
+
+
+</div>
