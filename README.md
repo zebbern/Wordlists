@@ -1,15 +1,100 @@
-# Wordlists
+# 🔍 Cybersecurity Wordlists Repository  
+*A curated collection of wordlists optimized for penetration testing, bug bounties, and cybersecurity research.*  
 
-https://github.com/danielmiessler/SecLists Comprehensive wordlists for all security testing needs.
-https://gist.github.com/Yas3r/0ac109f78fa81acf0a88573a757c387e Various lists for different security purposes
+---
 
+## 🗂️ **Categories**  
 
+### 🌐 **Subdomains**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **SecLists DNS** | Massive subdomain lists for recon. | [Link](https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS) |  
+| **JHaddix's all.txt** | Aggregated subdomains from leaks and scanners. | [Link](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) |  
+| **Assetnote Subdomains** | Actively maintained subdomain wordlists. | [Link](https://wordlists.assetnote.io/subdomains/) |  
+| **Commonspeak2** | Subdomains based on trending tech keywords. | [Link](https://github.com/assetnote/commonspeak2/tree/master/subdomains) |  
+| **Knockpy** | Subdomain brute-forcing list for Knockpy tool. | [Link](https://github.com/guelfoweb/knock/tree/master/wordlist) |  
+| **DNSDumpster** | Subdomains from DNSDumpster's crawl data. | [Link](https://github.com/UnaPibaGeek/dnsdumpster-scraper) |  
 
-**I also want to make you aware that:**
+---
 
-- This was written for educational purpose and pentest only.
-- The author will not be responsible for any damage ..!
-- The author of this tool is not responsible for any misuse of the information.
-- You will not misuse the information to gain unauthorized access.
-- This information shall only be used to expand knowledge and not for causing malicious or damaging attacks.
-- Performing any hacks without written permission is illegal ..!
+### 📂 **Directory Brute-Forcing**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **Dirbuster's big.txt** | Classic directory brute-forcing list. | [Link](https://gitlab.com/kalilinux/packages/dirbuster/-/blob/kali/master/wordlists/directory-list-2.3-big.txt) |  
+| **SecLists Web Content** | Common and uncommon directories/files. | [Link](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content) |  
+| **FuzzDB Predictable Paths** | Paths for backups, configs, and admin panels. | [Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/discovery/predictable-filepaths) |  
+| **Assetnote Mega List** | 9M+ entries for directories and files. | [Link](https://wordlists.assetnote.io/data/web-content/) |  
+| **Dirsearch Default** | Default wordlist for dirsearch tool. | [Link](https://github.com/maurosoria/dirsearch/tree/master/db) |  
+| **Raft** | Medium-sized list for general discovery. | [Link](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-directories.txt) |  
+
+---
+
+### 📄 **File Extensions**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **SecLists Extensions** | Common and obscure file extensions. | [Link](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/web-extensions.txt) |  
+| **PayloadsAllTheThings** | Extensions for LFI, backups, and bypasses. | [Link](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Wordlists/Extensions.txt) |  
+| **FuzzDB File Extensions** | Focused on server-side file types. | [Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/discovery/file-extensions) |  
+| **DotFiles** | Hidden config files (e.g., `.env`, `.git`). | [Link](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/dotfiles.txt) |  
+| **PHP Obfuscated** | Non-standard PHP extensions (`.php5`, `.pht`). | [Link](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/web-extensions-php.txt) |  
+
+---
+
+### 🔑 **Passwords**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **RockYou.txt** | 14M passwords from the 2009 breach. | [Link](https://github.com/brannondorsey/naive-hashcat/releases) |  
+| **SecLists Passwords** | Common passwords, leaked databases, and rules. | [Link](https://github.com/danielmiessler/SecLists/tree/master/Passwords) |  
+| **CrackStation** | 1.5B entries with human-generated passwords. | [Link](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm) |  
+| **Honeypot Passwords** | Real-world passwords from honeypots. | [Link](https://github.com/clem9669/honeypot-passwords) |  
+| **Probable Wordlists** | Contextual passwords (e.g., sports, movies). | [Link](https://github.com/berzerk0/Probable-Wordlists) |  
+| **Weakpass** | Leaked passwords sorted by year/breach. | [Link](https://weakpass.com/) |  
+
+---
+
+### 👤 **Usernames**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **SecLists Usernames** | Top usernames from breaches and services. | [Link](https://github.com/danielmiessler/SecLists/tree/master/Usernames) |  
+| **LinkedIn 2021 Leak** | Usernames from LinkedIn data scrape. | [Link](https://github.com/Orange-Cyberdefense/ocd-mindmaps/blob/main/wordlists/usernames-linkedin.txt) |  
+| **FuzzDB Usernames** | Common and system-specific usernames. | [Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/discovery/usernames) |  
+| **XatoNet** | 10M+ username list from Xato.net. | [Link](https://github.com/jeanphorn/wordlist/blob/master/usernames.txt) |  
+| **Default Logins** | Default credentials for routers/IoT devices. | [Link](https://github.com/rapid7/wordlists/blob/master/Default_Logins/default-logins.csv) |  
+
+---
+
+### ⚙️ **Parameter Fuzzing**  
+| Wordlist | Description | Source |  
+|----------|-------------|--------|  
+| **Burp Param Miner** | Hidden parameters for APIs and web apps. | [Link](https://github.com/PortSwigger/param-miner/tree/master/resources) |  
+| **Parameth** | 10K+ parameters for fuzzing. | [Link](https://github.com/maK-/parameth/blob/master/params.txt) |  
+| **Arjun Default** | Curated parameters for automated discovery. | [Link](https://github.com/s0md3v/Arjun/blob/master/arjun/db/params.txt) |  
+| **FuzzDB Injection** | Payloads for SQLi, XSS, and command injection. | [Link](https://github.com/fuzzdb-project/fuzzdb/tree/master/attack) |  
+| **API Security List** | Parameters for GraphQL and REST APIs. | [Link](https://github.com/smodnix/31-days-of-API-Security-Tips/blob/master/wordlist/api_endpoints.txt) |  
+
+---
+
+## 🚀 **Advanced Wordlists**  
+- **SSRF/XXE**: [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection)  
+- **Cloud Buckets**: [Bucket Names](https://github.com/gwen001/s3-buckets-finder/blob/master/wordlists/bucket-names.txt)  
+- **Unicode Bypasses**: [Unicode XSS](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection#unicode)  
+- **CORS Exploits**: [CORS Headers](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CORS%20Misconfiguration/CORS-headers.md)  
+
+---
+
+## 🔧 **Tips**  
+1. **Combine Lists**: Merge with `sort -u wordlist1.txt wordlist2.txt > combined.txt`.  
+2. **Generate Dynamically**: Use `cewl` or `theHarvester` to scrape target-specific terms.  
+3. **Monitor 404s**: Log failed paths during brute-forcing to refine future scans.  
+
+---
+
+## 🌟 **Popular Repositories**  
+- **[SecLists](https://github.com/danielmiessler/SecLists)**: The gold standard for recon and exploitation.  
+- **[FuzzDB](https://github.com/fuzzdb-project/fuzzdb)**: Payloads for WAF bypasses and injection.  
+- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)**: All-in-one attack payload library.  
+
+---
+
+**🔒 Legal Note**: Always obtain proper authorization before testing.  
+*Maintained with ❤️ by the infosec community.*  
