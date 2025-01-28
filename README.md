@@ -104,3 +104,5 @@
 > [!WARNING]  
 Always obtain proper authorization before testing.  
 **Maintained with ❤️ by github.com/zebbern.**  
+
+> Explore more of my projects: [GitHub Repositories](https://github.com/zebbern?tab=repositories)
