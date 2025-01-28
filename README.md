@@ -93,6 +93,7 @@
 - **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)**: All-in-one attack payload library.  
 
 ---
-
-**🔒 Legal Note**: Always obtain proper authorization before testing.  
+<hr>
+> [!WARNING] 
+Always obtain proper authorization before testing.  
 *Maintained with ❤️ by the infosec community.*  
